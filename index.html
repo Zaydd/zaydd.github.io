@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="https://beaudoinapps.com/favicon.ico" type="image/x-icon">
+
+    <!-- PAGE TITLE -->
+    <title>PARALLAX.CF</title>
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:300,400,500|Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- STYLESHEETS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="extended">
+
+    <!-- BACKGROUND -->
+    <div id="bg-pattern"></div>
+    <div id="bg-darker"></div>
+    <div id="bg-image"></div>
+    <!-- /BACKGROUND -->
+
+    <!-- YOUTUBE BACKGROUND -->
+	    <video autoplay loop id="video">
+     	<source src="videos/BANG.mp4" type="video/mp4">
+     	<script>
+		var video = document.currentScript.parentElement;
+		video.volume = 0.4;
+		</script>
+		</video>
+    <!-- /YOUTUBE BACKGROUND -->
+
+
+    <!-- PRELOADER -->
+    <div id="prelaoder">
+        <div class="socket">
+            <img src="assets/img/spinner.png" alt="">
+        </div>
+    </div>
+    <!-- /PRELOADER -->
+
+
+    <!-- FRONT CONTENT -->
+    <div id="front-page">
+
+        <div id="canvas-container">
+            <canvas id="gravity" class="layer" data-depth="0.50"></canvas>
+        </div>
+
+        <!-- HOME SCREEN -->
+        <div id="home-screen" class="layer" data-depth="0.05">
+
+
+            <!-- CONTENT BLOCK -->
+            <div class="content-block animated">
+
+                <div class="container animated">
+                    <div class="slider">
+
+                        <div class="slide">
+                            <h1>P<span>ARALLAX</span></h1>
+                            <p>COMING SOON.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /CONTENT BLOCK -->
+
+        </div>
+        <!-- /HOME SCREEN -->
+
+    </div>
+    <!-- /FRONT CONTENT -->
+
+    <!-- JAVASCRIPTS -->
+    <script data-cfasync="false" type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="assets/js/jquery.cycle.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="assets/js/jquery.parallax.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="assets/js/jquery.backstretch.min.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
